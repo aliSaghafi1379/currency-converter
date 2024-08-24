@@ -9,3 +9,17 @@ body {
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+
+select::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+select::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+/* Handle */
+select::-webkit-scrollbar-thumb {
+  background: #888;
+}
