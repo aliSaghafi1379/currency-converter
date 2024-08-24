@@ -1,3 +1,5 @@
+**_ If the internet is slow, please use vpn _**
+
 - Next js (Using Pages Router)
 - Tailwind css
 - Material ui for icon
