@@ -16,7 +16,7 @@ const Operation = () => {
   // country : To store the currency of countries from the website: https://v6.exchangerate-api.com
   const [currency, setCurrency] = useState<number | null>(null);
   const [isLoading, setLoading] = useState<boolean>(true);
-
+// fx-ntz-v1-NMvPIzo5PgYTt3jhhTMUtJxYOljMpQznYICb4a1S
   useEffect(() => {
     setCountry(Object.keys(Data));
   }, [Data]);
