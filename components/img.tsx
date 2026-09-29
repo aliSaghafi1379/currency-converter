@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Data from "../data.json";
+import Data from "../pages/data.json";
 
 const Img = ({ chooseFlag }: { chooseFlag: string }) => {
   const flag = Data[chooseFlag as keyof typeof Data].toLocaleLowerCase();

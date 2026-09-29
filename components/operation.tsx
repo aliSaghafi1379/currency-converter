@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Input from "./input";
 import Convert from "./convert";
 import Output from "./output";
-import Data from "../data.json";
+import Data from "../pages/data.json";
 
 const Operation = () => {
   // input : To receive information from the user

@@ -1,5 +1,5 @@
-import Operation from "./components/operation";
-import Title from "./components/title";
+import Operation from "../components/operation";
+import Title from "../components/title";
 
 const Home = () => {
   return (
